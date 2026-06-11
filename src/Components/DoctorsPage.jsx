@@ -149,7 +149,7 @@ function DoctorProfileView({ doctor, onBack, onNavigate }) {
   const hospital = doctor.hospital || doctor[4]
   const rating = doctor.rating || doctor[5]
   const reviews = doctor.reviews || doctor[6]
-  const casesHandled = doctor.casesHandled || (name ? Math.floor(Math.random() * 2000 + 3000) : 0)
+  const casesHandled = doctor.casesHandled || (name ? (name.length * 200 + 3000) : 0)
 
   const handleBook = async (e) => {
     e.preventDefault()
