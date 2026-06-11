@@ -7,15 +7,15 @@ import {
   AdminDashboardPage,
   AdminReportsPage,
   AdminUsersPage,
-} from './components/AdminPages'
-import { AboutPage } from './components/AboutPage'
-import { api } from './components/api'
-import { LoginPage, SignupPage } from './components/AuthPages'
-import { BlogsPage } from './components/BlogsPage'
-import { ContactPage } from './components/ContactPage'
-import { DoctorsPage } from './components/DoctorsPage'
-import { FaqPage } from './components/FaqPage'
-import { HomePage } from './components/HomePage'
+} from './Components/AdminPages'
+import { AboutPage } from './Components/AboutPage'
+import { api } from './Components/api'
+import { LoginPage, SignupPage } from './Components/AuthPages'
+import { BlogsPage } from './Components/BlogsPage'
+import { ContactPage } from './Components/ContactPage'
+import { DoctorsPage } from './Components/DoctorsPage'
+import { FaqPage } from './Components/FaqPage'
+import { HomePage } from './Components/HomePage'
 import {
   AppointmentDetailPage,
   BmiPage,
@@ -27,9 +27,9 @@ import {
   ReminderPage,
   SettingsPage,
   SosPage,
-} from './components/PatientPages'
-import { HealthHeader } from './components/Shared'
-import { Icon } from './components/Icon'
+} from './Components/PatientPages'
+import { HealthHeader } from './Components/Shared'
+import { Icon } from './Components/Icon'
 
 const pageComponents = {
   home: HomePage,
