@@ -1,0 +1,27 @@
+body.dark-theme {
+  filter: invert(0.95) hue-rotate(180deg);
+  background: #111;
+}
+
+body.dark-theme img,
+body.dark-theme video,
+body.dark-theme .doctor-photo,
+body.dark-theme .hero-art-img,
+body.dark-theme .illustration,
+body.dark-theme [style*="background-image"] {
+  filter: invert(1.05) hue-rotate(180deg);
+}
+
+/* Specifically for HealthMitra layout elements */
+body.dark-theme .page-shell {
+  background: #fcfcfc;
+}
+
+body.dark-theme .site-header {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+body.dark-theme .dash-topbar,
+body.dark-theme .app-sidebar {
+  background: #fff;
+}
